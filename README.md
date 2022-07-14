@@ -1,6 +1,6 @@
 # JWTSample Lab
 
-##Intorduction
+## Intorduction
  This sample lab contains User Login, JWT token creation and two action methods one with authorization and one without.
  ActionFilter is used to validate the token with every request.
  
