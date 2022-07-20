@@ -1,5 +1,6 @@
-﻿using JWTModels.Dto;
-using JWTSample.Security;
+﻿using Azure.Core;
+using JWTSample.Contract.Dto;
+using JWTSample.Service.Security;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Configuration;

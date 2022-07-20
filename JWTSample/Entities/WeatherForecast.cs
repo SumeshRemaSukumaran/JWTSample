@@ -1,6 +1,6 @@
 using System;
 
-namespace JWTSample
+namespace JWTSample.Entities
 {
     public class WeatherForecast
     {

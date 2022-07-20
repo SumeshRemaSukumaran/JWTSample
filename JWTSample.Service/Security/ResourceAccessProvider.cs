@@ -5,7 +5,7 @@ using System.Net.WebSockets;
 using System.Security.Principal;
 using System.Text;
 
-namespace JWTSample.Security
+namespace JWTSample.Service.Security
 {
     public class ResourceAccessProvider : IResourceAccessProvider
     {

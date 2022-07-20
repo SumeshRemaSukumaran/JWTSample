@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTSample", "JWTSample\JWTSample.csproj", "{BBE8F473-6A31-49B0-9DC8-838113582A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTSample.API", "JWTSample\JWTSample.API.csproj", "{BBE8F473-6A31-49B0-9DC8-838113582A4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTModels", "JWTModels\JWTModels.csproj", "{4A4183C0-6658-4995-B8DF-059C75F2F9E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTSample.Contract", "JWTModels\JWTSample.Contract.csproj", "{4A4183C0-6658-4995-B8DF-059C75F2F9E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace JWTModels.ViewModel
+namespace JWTSample.Contract.ViewModel
 {
     public class UserModel
     {

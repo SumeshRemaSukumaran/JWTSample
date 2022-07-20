@@ -1,4 +1,5 @@
-﻿using JWTModels.Dto;
+﻿using JWTSample.Contract.Dto;
+using JWTSample. Entities;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
@@ -8,13 +9,13 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JWTSample.Security
+namespace JWTSample.Service.Security
 {
-    public class Authentication : IAuthentication
+    public class AuthenticationService : IAuthenticationService
     {
         private readonly TokenManagementDto _tokenManagement;
 
-        public Authentication(IOptions<TokenManagementDto> tokenManagementDto)
+        public AuthenticationService(IOptions<TokenManagementDto> tokenManagementDto)
         {
             _tokenManagement = tokenManagementDto.Value;
         }

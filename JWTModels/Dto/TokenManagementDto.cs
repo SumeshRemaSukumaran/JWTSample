@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace JWTModels.Dto
+namespace JWTSample.Contract.Dto
 {
     [JsonObject("TokenManagement")]
     public class TokenManagementDto
@@ -17,9 +17,9 @@ namespace JWTModels.Dto
 
         [JsonProperty("audience")]
         public string Audience { get; set; }
-        [JsonProperty("accessExpiration")]
-        public string AccessExpiration { get; set; }
-        [JsonProperty("refreshExpiraton")]
-        public string RefreshExpiraton { get; set; }
+        [JsonProperty("accessExpirationMinutes")]
+        public string AccessExpirationMinutes { get; set; }
+        [JsonProperty("refreshExpiratonMinutes")]
+        public string RefreshExpiratonMinutes { get; set; }
     }
 }

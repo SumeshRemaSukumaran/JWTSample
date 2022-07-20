@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Core" Version="1.25.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.17" />
     <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.21.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
@@ -13,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JWTModels\JWTModels.csproj" />
+    <ProjectReference Include="..\JWTModels\JWTSample.Contract.csproj" />
   </ItemGroup>
 
 </Project>

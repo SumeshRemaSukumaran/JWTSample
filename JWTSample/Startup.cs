@@ -1,5 +1,6 @@
-using JWTModels.Dto;
-using JWTSample.Security;
+using JWTSample.Contract.Dto;
+using JWTSample.Entities;
+using JWTSample.Service.Security;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -39,7 +40,7 @@ namespace JWTSample
             });     
 
             services.AddTransient<IResourceAccessProvider, ResourceAccessProvider>();
-            services.AddTransient<IAuthentication, Authentication>();
+            services.AddTransient<IAuthenticationService, AuthenticationService>();
             services.AddSingleton<Users>();
             services.AddSingleton<TokenManagementDto>();
             services.Configure<TokenManagementDto>(Configuration.GetSection("tokenManagement"));

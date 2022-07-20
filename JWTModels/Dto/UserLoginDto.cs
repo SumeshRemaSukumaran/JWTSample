@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace JWTModels.Dto
+namespace JWTSample.Contract.Dto
 {
     public class UserLoginDto
     {

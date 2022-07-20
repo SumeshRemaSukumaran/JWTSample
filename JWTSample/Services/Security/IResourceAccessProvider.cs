@@ -1,6 +1,6 @@
-﻿using JWTModels.Dto;
+﻿using JWTSample.Contract.Dto;
 
-namespace JWTSample.Security
+namespace JWTSample.Service.Security
 {
     public interface IResourceAccessProvider
     {

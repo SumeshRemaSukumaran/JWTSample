@@ -1,9 +1,9 @@
-﻿using JWTModels.Dto;
+﻿using JWTSample.Contract.Dto;
 using System.Threading.Tasks;
 
-namespace JWTSample.Security
+namespace JWTSample.Service.Security
 {
-    public interface IAuthentication
+    public interface IAuthenticationService
     {
         Task<(bool, string)> AuthenticateUser(UserLoginDto userLogin);
         Task<bool> LogoutUser(string sessionId);
